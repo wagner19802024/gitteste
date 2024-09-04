@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1{
+  
+  background:yellow;
+  color: blue;
+  font-size: 50px;
+  border-radius: 10px;
+  line-height: 1.8;
+  border-color: red;
+  width: 500px;
+  opacity: 0;
+  transition: 5s;
+
+}
+
+h2{
+  
+  background-color: blueviolet;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.5;
+  width: 1000px;
+  font-family: 'Courier New', Courier, monospace;
+}
+p{
+  color: aqua;
+  background-color: chocolate;
+  font-size: 25px;
+  text-align: center;
+  line-height: 1.5;
+  width: 700px;
+  @keyframes blink {
+    0%, 100% {opacity:1;}
+    50% {opacity: 0;}
+    animation: blink 1s infinite;
+  }
+
+}
+
+
+footer {
+  font-size: 36px;
+  background: linear-gradient(90deg, red, yellow, green, blue, purple);
+  --webkit-background-clip: text;
+  color: transparent;
+  animation: gradientAnimation 5s infinite;
+  text-align: center;
+  line-height: 3;  
+}  
+ 
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
