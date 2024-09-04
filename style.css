@@ -48,7 +48,7 @@ p{
 footer {
   font-size: 36px;
   background: linear-gradient(90deg, red, yellow, green, blue, purple);
-  --webkit-background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
   animation: gradientAnimation 5s infinite;
   text-align: center;
